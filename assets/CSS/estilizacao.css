@@ -29,9 +29,10 @@ nav ul li{
     color:#FF7800;
 }
 h1{
-    color:gray;
-    font-size:20px;
+    color:#999999;
+    font-size:18px;
     margin-left:2rem;
+    font-weight:700;
 }
 #cards{
     display:grid;
@@ -43,21 +44,78 @@ h1{
     margin-left:1rem;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
     height:500px;
+    border-radius: 3px;
 }
 
-#cardLeft ul{
-    list-style: none;
+        #cardLeft ul{
+            list-style: none;
+        }
+
+        #cardLeft ul li{
+            border:solid 1px #EEEEEE;
+            margin-bottom:2rem;
+            margin-right:2rem;
+            padding: 3px;
+            align-items: center;
+            display:flex;
+            justify-content: flex-start;    
+        }
+
+        #cardLeft ul li img{
+            width:50px;
+            height:70px;
+            padding-left: 8px;
+            margin-right:30px;
+        }
+
+        #cardLeft ul li spam{
+            width:80%;
+        }
+
+#cardRight{
+    margin-left:1rem;
+    margin-right:1rem;
 }
 
-#cardLeft ul li{
-    border:solid 2px rgba(128, 128, 128, 0.144);
-    margin-bottom:2rem;
-    margin-right:2rem;
-    padding: 3px;
-    align-items: center;
-    display:flex;
-    justify-content: space-between;   
-}
+        #cardRight ul{
+            border:solid 1px #CCCCCC;
+            padding:0px 1rem 0px 1rem;
+            margin-top: 0px;
+        }
+
+        #cardRight ul li{
+            list-style: none;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: uppercase;
+            font-size:18px;
+        }
+        
+        #cardRight ul li#desc{
+            color:#FF7800;
+        }
+
+        #cardRight ul li#tot{
+            padding-top:20px;
+            font-weight: 700;
+        }
+
+        section button{
+            width:100%;
+            height:50px;
+            border:none;
+            background-color: #FF6c00;
+            color:white;
+            text-transform: uppercase;
+            font-size:16px;
+            font-weight: bold;
+            box-shadow: 1px 1px 5px rgba(214, 66, 12, 0.945);
+            border-radius: 3px;
+        }
+
+
+
 
 
 
